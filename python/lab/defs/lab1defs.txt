@@ -8,3 +8,5 @@ Pipes and redirection
 grep: søker på fil
 cat: viser innhold av filen på termninalen.
 less: Det er for bla gjennom Terminalen med pil (venstre, opp, ned og høyre).
+testt
+
