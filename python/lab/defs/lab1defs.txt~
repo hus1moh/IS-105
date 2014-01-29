@@ -1,10 +1,10 @@
-mkdir: lager nytt mappe
-cd: Bytter mappe
-ls: viser innhold i mappe
-ls -l: list av informasjon om filen
-ls -la
+mkdir: lager nytt mappe.
+cd: Bytter mappe.
+ls: viser innhold i mappe.
+ls -l: list av informasjon om filen.
+ls -la: viser alle filen med informasjon.
 pwd: printer ut mappe
 Pipes and redirection
 grep: søker på fil
-cat  c
-less: Det er for bla gjennom Terminalen med pil (venstre, opp, ned og høyre)
+cat: viser innhold av filen på termninalen.
+less: Det er for bla gjennom Terminalen med pil (venstre, opp, ned og høyre).
