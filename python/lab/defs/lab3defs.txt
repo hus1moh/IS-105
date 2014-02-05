@@ -1,0 +1,20 @@
+regex - dette er en tegnsekvens som danner et søkemønster.
+den kan brukes til å søke gjennom strings f.eks.
+
+import - I python og andre programmeringsspråk import betyr å
+importere en annen klasse. I LAB3 importerte vi "re" klasse og
+brukte "findall ()"-metoden fra det.
+
+scripting language- Scripts brukes til å automatisere oppgaver som ville
+på annen måte bli gjort av et menneske. Det forteller et eksisterende program
+hva de skal gjøre.
+
+perl - perle er et høynivå programmeringsspråk. Det ble utviklet
+som en Unix skriptspråk, påvirkes av mange andre
+språk, men har også vært en soure av innflytelse til noen nyere
+språk.
+
+bash - Bash er et unix shell, et kommandolinjegrensesnitt. Det er allment
+standard med linux distroer og OS X. Shell scripting er når
+du lage et skript for å kjøre noe automatisert uten å ha
+en bruker manuelt skrive kommandoen i kommando.
