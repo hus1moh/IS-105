@@ -36,10 +36,9 @@ gruppe = {  'student1': 'Admir', \
 #
 # Din funksjonsimplementering skrives her ...
     
-  subprocess.call(["../Scripts/test1.py"])
-  subprocess.call(["../Scripts/test1.sh"])
-  subprocess.call(["..Scripts/test1.pl"])
-
+subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.sh"])
+subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.py"])
+subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.p1"])
 
 #
 #  Oppgave 2
