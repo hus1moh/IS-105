@@ -1,0 +1,13 @@
+Lab 2 definisjoner
+
+1.Operatør prioritet i python
+Det vil si når beregning skjer i python så velger operatør prioritet hvilken rengstykke som skal utføres først.
+f.eks i et regnstykke skjer  multiplikasjon før addisjon og subtrasjon.
+
+2. One's complement
+Det er operasjon som endre bits omvendt i representasjon av et binær tall.
+f.eks 1001 >> blir til 0110
+
+
+3. Two complement
+Det er samme som one's complement men bare uten 0. den legger til også 1.
