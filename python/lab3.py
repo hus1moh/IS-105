@@ -20,6 +20,7 @@ gruppe = {  'student1': 'Admir', \
 
 #
 #  Oppgave 1
+print "Oppgave1"
 #    Skrive test1.sh, test1.pl og test1.py.
 #	 Se teksten til LAB3 for mer detaljer.
 #    Kalle disse opp fra en funksjon lab3_scripts()
@@ -36,12 +37,13 @@ gruppe = {  'student1': 'Admir', \
 #
 # Din funksjonsimplementering skrives her ...
     
-subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.sh"])
-subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.py"])
-subprocess.call(["/home/admir/Desktop/IS-105/Scripts/test1.p1"])
+subprocess.call(["/home/Husein/IS-105/Scripts/test1.sh"])
+subprocess.call(["/home/Husein/IS-105/Scripts/test1.py"])
+subprocess.call(["/home/Husein/IS-105/Scripts/test1.p1"])
 
 #
 #  Oppgave 2
+print "oppgave2"
 #    Funksjonen min_sys_info() skriver ut systeminformasjon
 #    til det miljøet (maskinen) den blir utført på.
 #
@@ -61,6 +63,7 @@ def min_sys_info():
 
 #
 #  Oppgave 3
+print "oppgave3"
 #    Jobbe med symboler (bokstaver og tall)
 #	 Utforske str.find funksjon fra Python Standard Library
 #    
@@ -75,10 +78,17 @@ def min_sys_info():
 #    Anta at inn-data er korrekt (ingen testing nødvendig)
 #
 def initialer(navn):
-	return 2
-
+    
+    name = navn
+    name_split = name.split()
+    print(name_split)
+    for line in name_split:
+        print(line[0][0].upper() + '.')
+initialer("Husein Mohamed")
+initialer ("Admir Begovic")
 #
 #  Oppgave 4
+print "oppgave4"
 #    Ditt første møte med regulære uttrykk i Python (Perl stil)
 #    Utførsk re.findall funksjonen fra Python modulen re
 #    list = re.findall(regexp, str) (funksjon returnere en 
@@ -96,16 +106,23 @@ def initialer(navn):
 #    Anta at inn-data er korrekt, dvs. inneholder to 
 #    operander (to tall) og en operatør (+, for eksempel).
 #
-def infix_to_prefix(infix):
-	return 2
+def infix_to_prefix(expr):
+
+        regexp = r"[0-9]+"
+        regexp2 = r"[*+-/]"
+        r = re.findall(regexp2, expr) + re.findall(regexp, expr)
+        result = ' '.join(r)
+
+        return result 
+
 
 
 # Kaller opp implementerte funksjoner (pseudo-testing)
 # For å teste innleveringen
 print 5*"-" + " Studenter: " + 5*"-"
 for s in gruppe.values():
-	if s is not "-":
-		print s
+         if s is not "-":
+                 print s
 
 print 5*"-" + " mysysinfo() " + 5*"-"
 print min_sys_info.__doc__
@@ -119,6 +136,3 @@ print infix_to_prefix("2/3")
 
 # Kalle opp din lab3_scripts() funksjon her
 print 5*"-" + " lab3_scripts() " + 5*"-"
-
-
-
