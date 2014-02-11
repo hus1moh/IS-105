@@ -1,0 +1,19 @@
+API:
+      API er forkortelse for APlication Programming Interfaces, det er et programmeringsgrensesnitt som gjør det mulig at flere 
+      programmer kan kommunisere med hverandre. For eksempel det går an å hente google maps API for å integrere i et annet program.
+IDE:
+      Integrated devolopment enviroment, Det er et program som gjør mulig for raskere programmering, den har som regel en teksteditor, en kompilator for utføre
+      koding og debugger. For eksempel program som Eclipse for java utvikling og Visual studio for c#.
+PS:
+      Process status. Den kommondo vil vise alle informasjon som prosseren kjører.
+Top:  Den kommodoen viser kjørende prosessene.
+
+df:   Disk free, den kommodoen forteller hvor mange ledig og brukte minne på f.eks hardissken
+
+Kill: En kommondo som dreper prosesser.
+
+Netstat: Den viser statiskken av inne og ut data av et nettverk.
+
+Ifconfig:  Det er verktøyet I UNIX operativsstystemer for å konfigurere, kontroll fra en kommando.
+
+WHO:      Den kommando viser hvem som bruker systemet.
