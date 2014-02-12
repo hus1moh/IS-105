@@ -16,4 +16,4 @@ språk.
 
 bash - Bash er et unix shell, et kommandolinjegrensesnitt. Det er allment
 standard med linux distroer og OS X. Shell scripting er når
-du lage et skript for å kjøre automatisk uten å skrive manuelt kommandoen i kommando.
+du lage et skript for å kjøre automatisk uten å skrive manuelt i kommandoen.

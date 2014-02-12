@@ -104,11 +104,12 @@ ascii8Bin("A")
 #                01001000
 #                01101001
 #
+print "oppgave 7"
 def transferBin(string):
         l = list(string)
         for c in l:
                 ascii8Bin(c)
-print "oppgave 7"
+
 transferBin("Yoo whats upp ")
 
 
@@ -138,7 +139,7 @@ def transferHex(string):
         
         
                 
-transferHex("Heii")
+transferHex("Hei")
 
 
 

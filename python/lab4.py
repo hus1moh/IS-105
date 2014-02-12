@@ -14,8 +14,9 @@ import re
 import psutil # Kan installeres med "pip2.7 install psutil"
 
 # Skriv inn fullt navn på gruppemedlemene (erstatte '-' med navn slikt 'Kari Trå')
-gruppe = {  'student1': Husein Mohamed Ali, \
-			'student2': Admir Begovic, \
+gruppe = {  'student1': 'Admir', \
+			'student2': 'Mohammed', \
+            'student3': '-', \
 }
 
 # Oppgave 1
@@ -38,8 +39,8 @@ def psutils_use():
 	"""
 	Henter lister med systeminformasjon fra /proc og bearbeider disse
 	"""
-	# Impleementer funksjonen her
-
+	
+ppsutli.cpu_times
 	
 psutils_use()
 
